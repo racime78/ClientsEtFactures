@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Client
 {
+	String nom;
 	
 	/** 
 	 * Crée un client.
@@ -13,7 +14,7 @@ public class Client
 	
 	public Client(String nom)
 	{
-		String nom;
+		this.nom= nom;	
 		
 	}
 
@@ -34,7 +35,7 @@ public class Client
 	
 	public void setNom(String nom)
 	{
-		this.nom= nom;
+		this.nom= nom;	
 	}
 	
 	/**
@@ -45,6 +46,7 @@ public class Client
 	
 	public Facture createFacture(int montant)
 	{
+		
 		return null;
 	}
 	
